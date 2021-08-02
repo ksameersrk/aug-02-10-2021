@@ -28,12 +28,26 @@ func main()  {
 		fmt.Println("I don't know what number this is")
 	}
 
-	switch x := 14; x > 10{
+	switch x := 14; x > 10 {
 	case true:
-		fmt.Println("x is gt 10")
+		fmt.Println("x is gt 10 I")
+		fmt.Println("x is gt 10 II")
 	case false:
 		fmt.Println("x is lt 10")
 	}
 
+	switch day := "Tuesday"; day {
+	case "Tuesday":
+		fmt.Println("Huh!!!")
+	case "Wednesday", "Thursday":
+		fmt.Println("Long week")
+	case "Friday":
+		fmt.Println("TGIF")
+		//fallthrough
+	case "Saturday", "Sunday":
+		fmt.Println("whohohohoh")
+	default:
+		fmt.Println("Life sucks! It's just Monday")
+	}
 
 }
