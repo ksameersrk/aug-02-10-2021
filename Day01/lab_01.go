@@ -12,6 +12,7 @@ func main()  {
 	target := rand.Intn(100)
 	attempts, message, guess, gameOver := 0, "", -1, false
 
+	//fmt.Printf("Target: %d\n", target) //or %v
 	fmt.Println("Enter a number between 1 and 100")
 	for !gameOver {
 		fmt.Scanf("%d", &guess)
