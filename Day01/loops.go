@@ -4,7 +4,7 @@ import (
 	"fmt"
 )
 
-func main()  {
+func loops()  {
 	count := 0
 	//while loop in languages like Java, C#, JS
 	for count < 5 {
