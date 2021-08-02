@@ -35,3 +35,18 @@ func main() {
 * Create executables by running __go build hello.go__
 * The executables contain the complete Go runtime, so large in size
 
+* the file names are __snake_case___
+* Go application is made up of packages. Each package contains many functions
+* __main function__ in the __main package__ is the starting point
+
+
+
+
+
+
+
+
+
+
+
+
