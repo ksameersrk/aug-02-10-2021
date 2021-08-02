@@ -3,7 +3,7 @@ package main
 import "fmt"
 
 var company string
-func main()  {
+func dataTypes()  {
 	//int, bool, string, character, float
 	//var nameOfTheVariable datatype
 
