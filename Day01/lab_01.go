@@ -7,7 +7,7 @@ import (
 	"time"
 )
 
-func main()  {
+func lab01()  {
 	rand.Seed(time.Now().UTC().UnixNano())
 	target := rand.Intn(100)
 	attempts, message, guess, gameOver := 0, "", -1, false
