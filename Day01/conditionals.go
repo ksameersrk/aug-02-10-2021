@@ -2,7 +2,7 @@ package main
 
 import "fmt"
 
-func main()  {
+func conditionals()  {
 	num := 10
 
 	//if-else paranthesis is not required if (num % 2 == 0)
