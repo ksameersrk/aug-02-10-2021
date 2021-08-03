@@ -35,7 +35,7 @@ func basics() {
 	fmt.Println(shirts)
 
 	var even = []int {2, 4, 6, 8, 10}
-	
+
 	//Similar to a for-each or for-in other languages
 	for index, value := range even {
 		fmt.Println(index, value)
