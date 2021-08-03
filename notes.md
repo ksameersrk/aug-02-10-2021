@@ -40,6 +40,44 @@ func main() {
 * __main function__ in the __main package__ is the starting point
 
 
+#### Day01
+
+* variable declarations: __var name dataType = value__ or __name := value__
+* int, bool, float, string
+* Local variables should be used
+* Global variables need not be used; Shortcut declaration not allowed in global variables
+* Conditionals: if-else and switch-case
+* if-else paranthesis not required and positioning of curly braces important
+* You can declare variables and use them in if-else
+
+``` go
+if x := 3; x % 2 == 0; {
+
+} else {
+
+} 
+```
+
+* switch-case does not require __break__ statements like you have in other languages
+* __fallthrough__ statement to continue the execution of the next case
+* case can have multiples values to match __case "a", "b", "c" :__
+* __const__ keyword used to specify constants
+* const variables can be grouped
+* Only one keyword for loops: __for__ Used as a while loop as well
+* __break__ can be used to break out of the for loop
+* Packages like __strings__, __strconv__ for string operations
+* strings.Replace, strings.Split, strings.ToUpper
+* len("string"), strconv.AtoI, strconv.ItoA
+* Loop a string from 0 to len - 1 and access the characters
+
+
+
+
+
+
+
+
+
 
 
 
