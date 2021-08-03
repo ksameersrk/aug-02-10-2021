@@ -5,7 +5,7 @@ import "fmt"
 func main()  {
 	//[size]datatype for arrays
 	//map[datatype]datatype
-
+	//interface{} for creating any type of objects
 	var romanNumbers map[int]string = make(map[int]string)
 	romanNumbers[1] = "I"
 	romanNumbers[2] = "II"
