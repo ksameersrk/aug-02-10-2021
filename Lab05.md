@@ -1,8 +1,7 @@
-* Create __lab_05.go___
+* Create __lab_05.go__
 * Create a global array of numbers 101, 22, 43, 14, 5, 906, 310, 561, 84, 23, 100
 
-
-<br/><br/>
+<br/>
 
 ### Part I
 
@@ -17,7 +16,7 @@
 * generate a list of odd numbers
 * Generate a list of numbers divisible by 5. 
 
-<br/><br/>
+<br/>
 
 ### Part II
 
