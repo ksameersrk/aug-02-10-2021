@@ -70,6 +70,31 @@ if x := 3; x % 2 == 0; {
 * len("string"), strconv.AtoI, strconv.ItoA
 * Loop a string from 0 to len - 1 and access the characters
 
+#### Day02
+
+##### Arrays 
+
+* __[size]dataType__
+* __var numbers [10]int__
+* __numbers := []int {1, 2, 3}
+* len(arr), copy, append
+* Slices __numbers[0:2], numbers[3:], numbers[:5]__
+* __make([]int, size)__ used to dynamically construct arrays
+
+##### Maps: Key-value pairs
+
+* __map[keyDataType]valueDataType__
+* __var romanNumbers map[int]String = make(map[int]String)__
+* __delete(romanNumbers, key)__
+* __range__ keyword in for loop to iterate collections
+
+
+
+
+
+
+
+
 
 
 
