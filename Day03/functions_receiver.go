@@ -2,12 +2,22 @@ package main
 
 import (
 	"fmt"
+	"sort"
+	"strconv"
 	"strings"
 )
 
 type currency float32
 type name string
+type age int32
+type coll []int
+
 func main()  {
+	var i age = 12
+	strconv.Itoa(int(i))
+	var lst coll = []int {1}
+	fmt.Printf("%T\n", lst)
+	sort.SearchInts(lst, int(i))
 
 	//var dollar float32 = 73.45
 	//var euro float32 = 89.34
