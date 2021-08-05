@@ -36,7 +36,7 @@ func printPopulationOfChina()  {
 	for i := 0; i < len(citiesInChina); i++ {
 		sum += citiesInChina[i].population
 	}
-	fmt.Println(sum)
+	fmt.Printf("Population of China is %v\n", sum)
 }
 
 func printCityNameWithLargestAndSmallestPopulation() (smallest string, largest string) {
@@ -78,7 +78,7 @@ func printCitiesGroupedByCountries()  {
 }
 
 func loadCities() {
-	fileName := "./cities.csv"
+	fileName := "cities.csv"
 	file, err := os.Open(fileName)
 	scanner := bufio.NewScanner(file)
 	if err != nil {
