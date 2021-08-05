@@ -89,6 +89,23 @@ if x := 3; x % 2 == 0; {
 * __range__ keyword in for loop to iterate collections
 
 
+#### Day03
+
+* functions __func__ keyword
+* __func name() returnDataType {}__
+* Named functions __func add(a int, b int) (result int) {}__ 
+* Variadic functions : accepts multiple arguments _..._
+* ... can also be used as a spread operator. To pass arrays into variadic functions
+* Tuples: Functions can return more than one value as output
+* Higher order functions: Functions that can accept another function as argument or return a function as output
+* __Types__ __type name datatype__
+* Custom types can have functions also
+* Receiver functions: Attach functions to types and use them as __methods__
+* __customType.function()__
+
+
+
+
 
 
 
