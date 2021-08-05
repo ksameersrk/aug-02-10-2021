@@ -1,4 +1,4 @@
-* Create __lab_06.go__
+* Create __lab_06.go__ file
 * In this exercise you'll use __cities.csv__ file to perform some operations
 * Study the __cities.csv__ file in the repository
 * Define a __City struct__ accordingly
