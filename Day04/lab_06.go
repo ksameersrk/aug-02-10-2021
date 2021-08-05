@@ -13,9 +13,9 @@ type City struct {
 	country string
 	population float64
 }
-
 type CountriesCitiesCollection map[string][]City
 type CitiesCollection []City
+
 var cities CitiesCollection = make(CitiesCollection, 0)
 var countryCitiesMap CountriesCitiesCollection = make(CountriesCitiesCollection)
 

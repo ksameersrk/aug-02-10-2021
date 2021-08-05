@@ -103,7 +103,15 @@ if x := 3; x % 2 == 0; {
 * Receiver functions: Attach functions to types and use them as __methods__
 * __customType.function()__
 
+#### Day 04
 
+* An interface contains method definitions
+* Implementing an interface means, the TYPE should have a receiver function for every method in the interface
+* What is the meaning of empty interface? __interface {}__
+* Since there are no methods in the interface, EVERY TYPE implements it
+* A function that accepts an empty interface; you can pass any type of data to it
+* Empty Interface is equal to __ANY type__
+* printf, println are built-in functions that accepts ANY type
 
 
 
