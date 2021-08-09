@@ -1,6 +1,10 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+	//"runtime/trace"
+)
+
 
 func main()  {
 	defer catch()
