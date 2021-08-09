@@ -32,7 +32,7 @@ func (car Car) String() string {
 func NewHonda(year uint16) (Car, error) {
 	var err error = nil
 	if year < 2000 {
-		err = errors.New("Year cannot be lt 2000")
+		err = errors.New("year cannot be lt 2000")
 	}
 	return Car {model: "Honda Jazz", year: year, seatingCapacity: 5, carType: "Hatchback"}, err
 }
